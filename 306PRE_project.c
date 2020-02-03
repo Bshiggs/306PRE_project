@@ -39,7 +39,7 @@ int main(int argc, char*argv[]){
 				x++;
 				records(argv[x]);
 			}
-			else if (x + 1 == argc){	//LAST ARGUEMENT SHOULD BE CSV FILE SO CALL READCSV
+			else if (x + 1 == argc){	//LAST ARGUEMENT SHOULD BE CSV FILE SO CALL READCSV AND RETURN 0
 				readcvs(argv[x]);
 				return 0;
 			}
