@@ -35,3 +35,4 @@ void mean(char field[]){
 void records(char field[]){
 		///TODO: Display the records from file containing value in the the indicated field
 }
+//test
